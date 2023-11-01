@@ -10,7 +10,7 @@ export function cn(...inputs: ClassValue[]) {
 export function constructMetadata({
   title = "Teresitashows.com",
   description = "Shows niños y adultos,Cumpleaños,reuniones,baby shower,fiesta Hawauiana,Fiesta de los 80,Hora Loca",
-  image = "/thumnail.jpg",
+  image = "/cartoon_heart.jpg",
   icons = "./favicon.ico",
   noIndex = false
 }: {

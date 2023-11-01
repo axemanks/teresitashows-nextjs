@@ -1,9 +1,8 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
-import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
 import { constructMetadata } from '@/lib/utils';
+import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata:Metadata = constructMetadata()
 
@@ -14,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className='min-h-screen font-poppins grainy w-full'>
+      <body className='min-h-screen font-poppins grainy antialiased'>
         <Navbar />
         {children}
         <Footer />
