@@ -32,13 +32,6 @@ export function constructMetadata({
         }
       ]
     },
-    // twitter: {
-    //   card: "summary_large_image",
-    //   title,
-    //   description,
-    //   images: [image],
-    //   creator: "@powerthist187"
-    // },
     icons,
     metadataBase: new URL('https://teresitashows.com'),
     themeColor: '#FFF',
