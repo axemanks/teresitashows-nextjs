@@ -10,7 +10,7 @@ export function cn(...inputs: ClassValue[]) {
 export function constructMetadata({
   title = "Teresitashows.com",
   description = "Shows niños y adultos,Cumpleaños,reuniones,baby shower,fiesta Hawauiana,Fiesta de los 80,Hora Loca",
-  image = "/cartoon_heart.jpg",
+  image = "/thumbnail.jpg",
   icons = "./favicon.ico",
   noIndex = false
 }: {
@@ -32,13 +32,13 @@ export function constructMetadata({
         }
       ]
     },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [image],
-      creator: "@powerthist187"
-    },
+    // twitter: {
+    //   card: "summary_large_image",
+    //   title,
+    //   description,
+    //   images: [image],
+    //   creator: "@powerthist187"
+    // },
     icons,
     metadataBase: new URL('https://teresitashows.com'),
     themeColor: '#FFF',
