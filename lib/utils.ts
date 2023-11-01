@@ -9,7 +9,7 @@ export function cn(...inputs: ClassValue[]) {
 // Construct the metadata for the page
 export function constructMetadata({
   title = "Teresitashows.com",
-  description = "Shows niños y adultos,Cumpleaños,reuniones,baby shower,fiesta Hawauiana,Fiesta de los 80,Hora Loca",
+  description = "Shows niños y adultos,Cumpleaños,reuniones,baby shower,fiesta Hawauiana,Fiesta de los 80,Hora Loca. Dallas Texas",
   image = "/thumbnail.jpg",
   icons = "./favicon.ico",
   noIndex = false
