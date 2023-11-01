@@ -21,12 +21,12 @@ const Navbar = (props: Props) => {
             
             <li>
               <Link href="#services">
-                <Button variant="ghost">Services</Button>
+                <Button variant="ghost">Servicios</Button>
                 </Link>
             </li>
             <li>
               <Link href="#gallery">
-                <Button variant="ghost">Gallery</Button>
+                <Button variant="ghost">Galeria</Button>
               </Link>
             </li>
         </ul>

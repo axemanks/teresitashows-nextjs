@@ -3,11 +3,9 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { constructMetadata } from '@/lib/utils';
 
-export const metadata: Metadata = {
-  title: 'Teresita Shows!',
-  description: 'Built by Keith Scheldt',
-};
+export const metadata:Metadata = constructMetadata()
 
 export default function RootLayout({
   children,
