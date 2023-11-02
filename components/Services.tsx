@@ -9,7 +9,7 @@ type Props = {};
 const Services = (props: Props) => {
   return (
     <section
-      className='container w-full mx-auto flex flex-col gap-20 p-10 '
+      className='container w-full mx-auto flex flex-col gap-20 p-10 bg-cherry_blossom bg-fixed '
       id='services'
     >
       <h1 className='heading1 text-gradient text-center'>Nuestros Servicios</h1>

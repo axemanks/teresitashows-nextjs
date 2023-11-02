@@ -50,7 +50,7 @@ const images = [gallery1,gallery2,gallery3,gallery4,gallery5,gallery6,gallery7,g
 
 const Gallery = (props: Props) => {
   return (
-    <section className='gallery container ' id='gallery'>
+    <section className='gallery container bg-weather bg-fixed' id='gallery'>
         <h1 className='heading1 text-gradient pb-10'>Galeria</h1>
         {/* Gallery of 12 images */}
         <div className='flex flex-row flex-wrap justify-evenly gap-0.5 w-full'>

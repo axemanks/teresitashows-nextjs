@@ -89,6 +89,11 @@ module.exports = {
         left: "url('/left_ballon.png')",
         ballon: "url('/ballon_background.png')",
         party: "url('/party_background.png')",
+        cherry_blossom: "url('/sakura.png')",
+        weather: "url('/weather.png')",
+        flowers: "url('/pink-flowers.png')",
+        bricks: "url('/brickwall.png')",
+        water_color: "url('/watercolor.png')",
       },
       borderRadius: {
         lg: 'var(--radius)',
