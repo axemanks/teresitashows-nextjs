@@ -63,6 +63,7 @@ const Gallery = (props: Props) => {
                 className='gallery-image' 
                 objectFit='fill'
                 sizes='100vw'
+                
                 style={{
                   width: '150px',
                   height: 'auto',
