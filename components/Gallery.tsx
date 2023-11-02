@@ -60,13 +60,16 @@ const Gallery = (props: Props) => {
                 key={index} 
                 src={image} 
                 alt={`Gallery ${index}`} 
-                className='gallery-image' 
-                objectFit='fill'
-                sizes='100vw'
+                className='gallery-image rounded-xl' 
+                objectFit='contain'
+                sizes='small'
+                placeholder='blur'
                 
                 style={{
-                  width: '150px',
+                  width: 'auto',
+                  maxWidth: '300px',
                   height: 'auto',
+                  maxHeight: '300px',
                 }}
                                 
                 />
