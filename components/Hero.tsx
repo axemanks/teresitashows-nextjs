@@ -12,7 +12,7 @@ const Hero = (props: Props) => {
   return (
     <section
       id='hero'
-      className='container w-full nav-padding flex-wrap '
+      className='container w-full nav-padding flex-wrap bg-ballon bg-center bg-cover bg-fixed'
     >
       <div className='flex flex-row items-center justify-center space-x-10 flex-wrap '>
         {/* Image */}

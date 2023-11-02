@@ -88,6 +88,7 @@ module.exports = {
       backgroundImage: {
         left: "url('/left_ballon.png')",
         ballon: "url('/ballon_background.png')",
+        party: "url('/party_background.png')",
       },
       borderRadius: {
         lg: 'var(--radius)',
