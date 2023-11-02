@@ -60,8 +60,7 @@ const Gallery = (props: Props) => {
                 key={index} 
                 src={image} 
                 alt={`Gallery ${index}`} 
-                className='gallery-image rounded-xl' 
-                objectFit='fit'
+                className='gallery-image rounded-xl'
                 sizes='small'
                 placeholder='blur'
                 

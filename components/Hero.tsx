@@ -5,7 +5,7 @@ import React from 'react';
 import cartoonHeart from '@/public/cartoon_heart.png';
 import melina from '@/public/melina.png';
 import melina2 from '@/public/melina2.png';
-
+import teresita from '@/public/teresita.jpg';
 type Props = {};
 
 const Hero = (props: Props) => {
@@ -18,11 +18,14 @@ const Hero = (props: Props) => {
         {/* Image */}
        
         <Image
-          src='/teresita.jpg'
+          src={teresita}
           alt='Teresita'
           width={300}
           height={300}
+          quality={100}
           className='rounded-xl'
+          placeholder='blur'
+          aria-label='Teresita'
         />
        
         

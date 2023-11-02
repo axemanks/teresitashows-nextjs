@@ -34,7 +34,6 @@ export function constructMetadata({
     },
     icons,
     metadataBase: new URL('https://teresitashows.com'),
-    themeColor: '#FFF',
     ...(noIndex && {
       robots: {
         index: false,
