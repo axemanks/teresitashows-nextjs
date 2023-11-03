@@ -87,7 +87,7 @@ module.exports = {
       },
       backgroundImage: {
         left: "url('/left_ballon.png')",
-        ballon: "url('/ballon_background.png')",
+        ballon: "url('/ballon_background-min.png')",
         party: "url('/party_background.png')",
         cherry_blossom: "url('/sakura.png')",
         weather: "url('/weather.png')",
