@@ -21,6 +21,7 @@ const Hero = (props: Props) => {
         <div className='mr-2'>
         <PhoneForwardedIcon size={24} />
         </div>
+        Contáctanos al 
         <span>469-328-2513</span>
      </div>
 
