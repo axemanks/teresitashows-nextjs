@@ -51,18 +51,18 @@ const Hero = (props: Props) => {
           Sabemos que hoy es un día muy importante para ti,  es por eso que siempre ofrecemos  lo mejor para que tu fiesta sea un éxito!
           </p>
         </div>
-         {/* <Image
-        src={melina}
-        alt='cartoon heart'
-        width={300}
-        className='rounded-xl'
-        />
+         {/* Image */}       
+        <div className='hidden'>
         <Image
-        src={melina2}
-        alt='melina2'
-        width={300}
-        className='rounded-xl'
-        /> */}
+          src={teresita}
+          alt='Teresita'
+          width={300}
+          height={300}
+          quality={100}
+          className='rounded-xl'
+          placeholder='blur'
+          aria-label='Teresita'
+        /></div>
       
         </div>
     </section>
