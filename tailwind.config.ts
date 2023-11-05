@@ -94,6 +94,7 @@ module.exports = {
         flowers: "url('/pink-flowers.png')",
         bricks: "url('/brickwall.png')",
         water_color: "url('/watercolor.png')",
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
       borderRadius: {
         lg: 'var(--radius)',

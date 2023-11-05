@@ -7,6 +7,8 @@ const Footer = (props: Props) => {
   return (
     <footer className='container '>
       <div className='nav-padding flex flex-col flex-between justify-center content h-[150px] '>
+       
+
         <h1 className='heading1 text-gradient_blue-purple text-center '>
           Otros Servicios
         </h1>
@@ -25,11 +27,12 @@ const Footer = (props: Props) => {
           </li>
           <li>
             <p>y mucho más</p>
-            </li>
+          </li>
         </ul>
-        
-        <p className='paragraph-regular text-center text-primary pt-5'>Contactanos al 469-328-2513</p>
-        
+
+        <p className='paragraph-regular text-center text-primary pt-5'>
+          Contactanos al 469-328-2513
+        </p>
       </div>
     </footer>
   );
