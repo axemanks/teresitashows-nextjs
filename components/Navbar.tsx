@@ -21,7 +21,7 @@ const Navbar = (props: Props) => {
         <div className='mr-2'>
         <PhoneForwardedIcon size={24} />
         </div>
-        Contáctanos al 469-328-2513
+        <span>469-328-2513</span>
      </div>
         {/* Links */}
         <ul className='flex-center gap-x-3 max-md:hidden md:gap-x-10 body-text text-gradient_blue-orange font-bold'>
