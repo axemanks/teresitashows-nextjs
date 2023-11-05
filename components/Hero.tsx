@@ -17,6 +17,8 @@ const Hero = (props: Props) => {
       <div className=''>
       <video 
       src="dancing.mp4" 
+      typeof='video/mp4'
+      playsInline
       autoPlay 
       loop
       muted
