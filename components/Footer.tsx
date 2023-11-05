@@ -31,7 +31,7 @@ const Footer = (props: Props) => {
         </ul>
 
         <p className='paragraph-regular text-center text-primary pt-5'>
-          Contactanos al 469-328-2513
+        Contáctanos al 469-328-2513
         </p>
       </div>
     </footer>

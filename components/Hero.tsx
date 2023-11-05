@@ -32,7 +32,7 @@ const Hero = (props: Props) => {
       </div>
       <div className='flex flex-row items-center justify-center space-x-10 flex-wrap '>
         {/* Image */}       
-        {/* <div className='sm:hidden '>
+        <div className='hidden'>
         <Image
           src={teresita}
           alt='Teresita'
@@ -42,7 +42,7 @@ const Hero = (props: Props) => {
           className='rounded-xl'
           placeholder='blur'
           aria-label='Teresita'
-        /></div> */}
+        /></div>
        
         
         <div className='flex flex-col justify-between flex-grow gap-10'>
