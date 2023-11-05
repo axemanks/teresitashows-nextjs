@@ -6,14 +6,25 @@ import cartoonHeart from '@/public/cartoon_heart.png';
 import melina from '@/public/melina.png';
 import melina2 from '@/public/melina2.png';
 import teresita from '@/public/teresita.jpg';
+import { PhoneForwardedIcon } from 'lucide-react';
 type Props = {};
 
 const Hero = (props: Props) => {
   return (
     <section
       id='hero'
-      className='container w-full h-screen sm:nav-padding  flex-wrap '
+      className='container w-full h-screen sm:nav-padding flex flex-wrap '
     >
+
+       {/* Hover Contact */}
+     <div className='mx-auto flex w-full items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-5  shadow-md backdrop-blur transition-all hover:border-primary hover:bg-white/50 text-primary'>
+        <div className='mr-2'>
+        <PhoneForwardedIcon size={24} />
+        </div>
+        <span>469-328-2513</span>
+     </div>
+
+      {/* bg-video */}
       <div className=''>
       <video 
       src="dancing.mp4" 
@@ -27,14 +38,14 @@ const Hero = (props: Props) => {
         width: "100%",
         height: "100%",
         zIndex: -10,
-        top: 0,
+        top: 100,
         left: 0,        
       }}
       />
       </div>
       <div className='flex flex-row items-center justify-center space-x-10 flex-wrap '>
         {/* Image */}       
-        <div className='hidden'>
+        {/* <div className='hidden'>
         <Image
           src={teresita}
           alt='Teresita'
@@ -44,7 +55,7 @@ const Hero = (props: Props) => {
           className='rounded-xl'
           placeholder='blur'
           aria-label='Teresita'
-        /></div>
+        /></div> */}
        
         
         <div className='flex flex-col justify-between flex-grow gap-10'>
