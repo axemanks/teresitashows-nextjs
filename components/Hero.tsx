@@ -16,7 +16,7 @@ const Hero = (props: Props) => {
     >
       <div className=''>
       <video 
-      src="dancing.mov" 
+      src="dancing.mp4" 
       autoPlay 
       loop
       muted
