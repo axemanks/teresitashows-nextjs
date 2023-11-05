@@ -46,8 +46,8 @@ const Hero = (props: Props) => {
        
         
         <div className='flex flex-col justify-between flex-grow gap-10'>
-          <h1 className='heading1 mt-60 text-gradient_blue-orange pt-5 mx-auto'>Estamos De Fiesta!</h1>
-          <p className='heading3 text-center text-primary italic mx-auto flex-wrap'>
+          <h1 className='heading1 text-gradient_blue-orange pt-0 mx-auto text-center'>Estamos De Fiesta!</h1>
+          <p className='mt-60 heading3 text-center text-primary italic mx-auto flex-wrap'>
           Sabemos que hoy es un día muy importante para ti,  es por eso que siempre ofrecemos  lo mejor para que tu fiesta sea un éxito!
           </p>
         </div>
