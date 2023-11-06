@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { Button } from './ui/button';
+import { Button } from '../components/ui/button';
 import { PhoneForwardedIcon } from 'lucide-react';
 
 type Props = {};
@@ -19,17 +19,16 @@ const Navbar = (props: Props) => {
 
         {/* Links */}
         <ul className='flex-center gap-x-3 max-md:hidden md:gap-x-10 body-text text-gradient_blue-orange font-bold'>
-            
-            <li>
-              <Link href="#services">
-                <Button variant="ghost">Servicios</Button>
-                </Link>
-            </li>
-            <li>
-              <Link href="#gallery">
-                <Button variant="ghost">Galeria</Button>
-              </Link>
-            </li>
+          <li>
+            <Link href='#services'>
+              <Button variant='ghost'>Servicios</Button>
+            </Link>
+          </li>
+          <li>
+            <Link href='#gallery'>
+              <Button variant='ghost'>Galeria</Button>
+            </Link>
+          </li>
         </ul>
 
         {/* Hamburger Menu on small devices*/}

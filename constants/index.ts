@@ -1,18 +1,20 @@
 import { facebook, instagram, twitter } from "@/public/icons";
 import { customer1, customer2 } from "@/public/images";
 
+
+// star ratings need to be whole numbers like 5 not 4.5
 export const reviews = [
     {
         imgURL: customer1,
         customerName: 'Morich Brown',
-        rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        rating: 5, // whole number
+        feedback: " Highly recommended!"
     },
     {
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        rating: 5, // whole number
+        feedback: "Excellent! I'll definitely be a returning customer!"
     }
 ];
 
@@ -31,16 +33,16 @@ export const footerLinks = [
     },
     
     {
-        title: "Get in touch",
+        title: "Contáctanos al",
         links: [
-            { name: "contact@teresitashows.com", link: "mailto:customer@nike.com" },
+            // { name: "contact@teresitashows.com", link: "mailto:customer@nike.com" },
             { name: "469-328-2513", link: "tel:+92554862354" },
         ],
     },
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo", link: "https://www.facebook.com/teresitashows" },
-    { src: twitter, alt: "twitter logo", link: "https://twitter.com/teresitashows" },
-    { src: instagram, alt: "instagram logo", link: "https://www.instagram.com/teresitashows/" },
+    { src: facebook, alt: "facebook logo", link: "https://www.facebook.com/teresitapayasita" },
+    // { src: twitter, alt: "twitter logo", link: "https://twitter.com/teresitashows" },
+    { src: instagram, alt: "instagram logo", link: "https://www.instagram.com/teresitashow/" },
 ];
