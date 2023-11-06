@@ -4,6 +4,7 @@ import { copyrightSign } from '../public/icons';
 import { teresita } from '@/public/images';
 import Image from 'next/image';
 import { footerLinks, socialMedia } from '@/constants';
+import Link from 'next/link';
 
 type Props = {};
 
@@ -12,23 +13,27 @@ const Footer = (props: Props) => {
     <footer className="container bg-blue-500 pt-10">
       <div className="flex justify-center items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
-          <a href="/">
+          
+          
             <Image 
             src={teresita} 
             alt="logo" 
             width={200} 
             height={200} />
-          </a>
+          
           </div>
           <div>
           <p className="mt-6 text-base leading-7 font-montserrat text-white sm:max-w-sm">Sabemos que hoy es un día muy importante para ti, es por eso que siempre ofrecemos lo mejor para que tu fiesta sea un éxito!</p>
+          {/* Social Media icons */}
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon) => (
               <div 
               key={icon.alt}
               className="flex justify-center items-center w-12 h-12 bg-white rounded-full"
               >
+                <Link href={icon.link}>
                 <Image src={icon.src} alt={icon.alt} height={24} width={24} />
+                </Link>
               </div>
             ))}
 
