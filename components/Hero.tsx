@@ -13,26 +13,25 @@ const Hero = (props: Props) => {
   return (
     <section
       id='hero'
-      className='container w-full h-screen flex flex-wrap '
+      className='container  h-screen mb-32'
     >
       {/* Hover Contact */}
-      <div className='mx-auto h-16 flex items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-5  shadow-md backdrop-blur transition-all hover:border-primary hover:bg-white/50 text-primary'>
+      <div className='mx-auto h-16 sm:w-1/4 w-full flex items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-5  shadow-md backdrop-blur transition-all hover:border-primary hover:bg-white/50 text-primary'>
         <div className='mr-2 hidden lg:block'>
           <PhoneForwardedIcon size={24} />
         </div>
         Contáctanos al
         <span>469-328-2513</span>
       </div>
-
-      <div className='flex flex-row items-center justify-center space-x-10 flex-wrap '>
-        <div className='flex flex-col justify-between flex-grow gap-10'>
-          <div>
-            <h1 className='heading1 text-gradient_blue-orange pt-0 mx-auto text-center'>
+    {/* Container for text and video */}
+      <div className='container flex flex-col w-full h-full items-center justify-between flex-wrap sm:pb-20 pb-10'>        
+          
+            <h1 className='heading1 text-gradient_blue-orange pt-5 mx-auto text-center'>
               Estamos De Fiesta!
             </h1>
-          </div>
-
-          <div>
+            
+          
+          
             <video
               src='dancing.mp4'
               typeof='video/mp4'
@@ -40,25 +39,26 @@ const Hero = (props: Props) => {
               autoPlay
               loop
               muted
+              className=''
               style={{
                 position: 'absolute',
                 width: '100%',
                 height: '100%',
-                zIndex: -10,
+                zIndex: -1,
                 top: 100,
                 left: 0,
               }}
             />
-          </div>
 
-          <div>
-            <p className='mt-60 heading3 text-center text-primary italic mx-auto flex-wrap'>
+
+              
+            <p className=' heading3 text-center text-primary italic mx-auto flex-wrap '>
               Sabemos que hoy es un día muy importante para ti, es por eso que
               siempre ofrecemos lo mejor para que tu fiesta sea un éxito!
             </p>
-          </div>
+          
         </div>
-      </div>
+      
     </section>
   );
 };

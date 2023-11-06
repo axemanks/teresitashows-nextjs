@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    imgages:{
+    images:{
         formats: ["image/webp"],
     }
 }
