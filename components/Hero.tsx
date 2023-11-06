@@ -16,8 +16,8 @@ const Hero = (props: Props) => {
       className='container w-full h-screen flex flex-wrap '
     >
       {/* Hover Contact */}
-      <div className='mx-auto flex w-full items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-5  shadow-md backdrop-blur transition-all hover:border-primary hover:bg-white/50 text-primary'>
-        <div className='mr-2'>
+      <div className='mx-auto h-16 flex items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-5  shadow-md backdrop-blur transition-all hover:border-primary hover:bg-white/50 text-primary'>
+        <div className='mr-2 hidden lg:block'>
           <PhoneForwardedIcon size={24} />
         </div>
         Contáctanos al
@@ -25,7 +25,7 @@ const Hero = (props: Props) => {
       </div>
 
       <div className='flex flex-row items-center justify-center space-x-10 flex-wrap '>
-        <div className='flex flex-col justify-evenly flex-grow gap-10'>
+        <div className='flex flex-col justify-between flex-grow gap-10'>
           <div>
             <h1 className='heading1 text-gradient_blue-orange pt-0 mx-auto text-center'>
               Estamos De Fiesta!
