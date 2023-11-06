@@ -46,10 +46,10 @@ const Footer = (props: Props) => {
               <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">{section.title}</h4>
               <ul>
                 {section.links.map((link) => (
-                  <li className="mt-3 text-white font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer"
+                  <li className="mt-3 text-white font-montserrat text-base leading-normal hover:text-slate-gray "
                   key={link.name}
                   >
-                    <a >{link.name}</a>
+                    <p >{link.name}</p>
                   </li>
                 ))}
               </ul>
