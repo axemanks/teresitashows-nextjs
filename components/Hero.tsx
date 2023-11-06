@@ -26,7 +26,7 @@ const Hero = (props: Props) => {
     {/* Container for text and video */}
       <div className='container flex flex-col w-full h-full items-center justify-between flex-wrap sm:pb-20 pb-10'>        
           
-            <h1 className='heading1 text-gradient_blue-orange pt-5 mx-auto text-center'>
+            <h1 className='heading1 text-gradient_blue-orange mx-auto text-center'>
               Estamos De Fiesta!
             </h1>
             
