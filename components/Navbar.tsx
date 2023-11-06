@@ -16,13 +16,7 @@ const Navbar = (props: Props) => {
             Teresita Shows
           </p>
         </Link>
-        {/* Hover Contact */}
-     {/* <div className='mx-auto flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-primary hover:bg-white/50 text-primary'>
-        <div className='mr-2'>
-        <PhoneForwardedIcon size={24} />
-        </div>
-        <span>469-328-2513</span>
-     </div> */}
+
         {/* Links */}
         <ul className='flex-center gap-x-3 max-md:hidden md:gap-x-10 body-text text-gradient_blue-orange font-bold'>
             
