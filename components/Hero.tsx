@@ -45,7 +45,7 @@ const Hero = (props: Props) => {
                 width: '100%',
                 height: '100%',
                 zIndex: -1,
-                top: 100,
+                top: 120,
                 left: 0,
               }}
             />
