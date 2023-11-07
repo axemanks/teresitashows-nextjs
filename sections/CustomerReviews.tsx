@@ -4,7 +4,7 @@ import { reviews } from "../constants"
 
 const CustomerReviews = () => {
   return (
-    <section className="container mt-10 mb-10 bg-party">
+    <section className="container mt-10 mb-10">
       <h3 className=" text-center text-4xl font-bold ">What Our 
         <span className="text-primary"> Customers </span>
         Say?
