@@ -13,10 +13,10 @@ const Hero = (props: Props) => {
   return (
     <section
       id='hero'
-      className='container  h-screen mb-6'
+      className='container  h-screen mb-16'
     >
       {/* Hover Contact */}
-      <div className='mx-auto h-16 sm:w-1/4 w-full flex items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-5  shadow-md backdrop-blur transition-all hover:border-primary hover:bg-white/50 text-primary'>
+      <div className='mx-auto h-16 sm:w-1/2 w-full m-5 flex items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-5  shadow-md backdrop-blur transition-all hover:border-primary hover:bg-white/50 text-primary'>
         <div className='mr-2 hidden lg:block'>
           <PhoneForwardedIcon size={24} />
         </div>
