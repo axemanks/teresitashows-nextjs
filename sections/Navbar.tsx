@@ -29,6 +29,11 @@ const Navbar = (props: Props) => {
               <Button variant='ghost'>Galeria</Button>
             </Link>
           </li>
+          <li>
+            <Link href='#contact'>
+              <Button variant='ghost'>Contáctanos</Button>
+            </Link>
+          </li>
         </ul>
 
         {/* Hamburger Menu on small devices*/}

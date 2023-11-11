@@ -59,7 +59,7 @@ const Contact = (props: Props) => {
   };
 
   return (
-    <section>
+    <section id='contact'>
       <div className='relative flex lg:flex-row flex-col container h-max pb-10 '>
         {/* TODO: Alert */}
 
