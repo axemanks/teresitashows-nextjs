@@ -1,3 +1,4 @@
+import Contact from '@/sections/Contact';
 import CustomerReviews from '@/sections/CustomerReviews';
 import Gallery from '@/sections/Gallery';
 import Hero from '@/sections/Hero';
@@ -13,6 +14,7 @@ export default function Home() {
         <Services />
         <Gallery />
         <CustomerReviews />
+        <Contact />
       </div>
     </div>
   );

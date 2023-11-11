@@ -13,7 +13,7 @@ const Hero = (props: Props) => {
   return (
     <section
       id='hero'
-      className='container  h-screen mb-16'
+      className='container h-screen mb-16'
     >
       {/* Hover Contact */}
       <div className='mx-auto h-16 sm:w-1/2 w-full m-5 flex items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-5  shadow-md backdrop-blur transition-all hover:border-primary hover:bg-white/50 text-primary'>
@@ -24,7 +24,7 @@ const Hero = (props: Props) => {
         <span>469-328-2513</span>
       </div>
     {/* Container for text and video */}
-      <div className='container flex flex-col w-full h-full items-center justify-between flex-wrap sm:pb-20 pb-10'>        
+      <div className='container flex flex-col w-full h-full items-center justify-between flex-wrap sm:pb-20 '>        
           
             <h1 className='heading1 text-gradient_blue-orange mx-auto text-center'>
               Estamos De Fiesta!
@@ -39,7 +39,7 @@ const Hero = (props: Props) => {
               autoPlay
               loop
               muted
-              className=''
+              className='sm:pt-0 pt-28'
               style={{
                 position: 'absolute',
                 width: '100%',
